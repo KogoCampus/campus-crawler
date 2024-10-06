@@ -1,0 +1,27 @@
+{
+  "name": "taskq",
+  "version": "1.0.1",
+  "description": "A reusable task queue and mixin utility.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src tests",
+    "format": "prettier .",
+    "format:write": "prettier --write .",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KogoCampus/campus-crawler/libs/_shared-services/taskq.git"
+  },
+  "author": "KogoCampus",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "logger": "workspace:^"
+  }
+}

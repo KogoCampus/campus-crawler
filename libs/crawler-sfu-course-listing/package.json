@@ -1,0 +1,19 @@
+{
+  "name": "crawler-sfu-course-listing",
+  "version": "1.0.0",
+  "description": "A crawler to get course listing from SFU",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src tests",
+    "format": "prettier .",
+    "format:write": "prettier --write .",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "logger": "workspace:^",
+    "s3client": "workspace:^",
+    "taskq": "workspace:^"
+  }
+}

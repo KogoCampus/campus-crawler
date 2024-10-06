@@ -1,0 +1,16 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "format": "prettier .",
+    "format:write": "prettier --write ."
+  },
+  "dependencies": {
+    "@KogoCampus/logger": "^1.0.7"
+  }
+}

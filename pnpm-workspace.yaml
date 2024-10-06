@@ -1,0 +1,4 @@
+packages:
+  - 'libs/*'
+  - 'libs/_shared-services/*'
+  - 'runners/*'

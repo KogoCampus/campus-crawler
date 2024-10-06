@@ -1,0 +1,24 @@
+{
+  "name": "course-listing-api",
+  "version": "1.0.0",
+  "description": "An api server to deliver course listing information",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint src",
+    "format": "prettier .",
+    "format:write": "prettier --write .",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "crawler-sfu-course-listing": "workspace:^",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "logger": "workspace:^",
+    "taskq": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
